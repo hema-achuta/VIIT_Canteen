@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://images.shiksha.com/mediadata/images/1652958058phpqgdNfk_1280x960.jpg");
+  /* Add the blur effect */
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  backdrop-filter: blur(5px);
+  color: white;
+  font-weight: bold;
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bt{
+  font-size: 50px;
+  color: rgb(175, 224, 76);
+  text-shadow: 0px 0px 10px rgb(220, 134, 63);
+}
+
+</style>
+</head>
+<body>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <p class="bt">About Us</p>
+  <h1 style="font-size:15px">We the canteen of Vignan's with grit and integrity in handling food hereby present ourselves with better accessibility where you could necessarily preorder and take away at ease<br>
+              We ensure that the food being provided is at its crest in terms of hygiene and health<br>
+              The serve we make stands for the applause of not just students but by very ones who receive it.<br>
+              Accounting the enrichment of such serve we now provide the accessibility in online terms<br></h1>
+              <p class="bt">What to wait for now?<p>
+              <h3><br> Order in terms of requirement Vignan's here for you ,now and always.<br></h3>
+</div>
+
+</body>
+</html>
